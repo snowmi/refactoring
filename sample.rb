@@ -8,6 +8,6 @@ first_rental = Rental.new(jaws, 3)
 second_rental = Rental.new(et, 5)
 third_rental = Rental.new(anpanman, 2)
 
-takahiro = Customer.new("Takahiro")
-takahiro.add_rental(first_rental)
-takahiro.statement
+snowmi = Customer.new("Takahiro")
+snowmi.add_rental(first_rental)
+snowmi.statement
