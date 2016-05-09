@@ -21,3 +21,6 @@ puts snowmi.statement
 snowmi.add_rental(third_rental)
 puts "----- Add third_rental -----"
 puts snowmi.statement
+
+puts "html section"
+puts snowmi.html_statement
