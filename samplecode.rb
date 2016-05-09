@@ -1,12 +1,5 @@
 # encodling:utf-8
 
-# ----- DefaultPriceモジュール -----
-module DefaultPrice
-  def frequent_renter_points(days_rented)
-    1
-  end
-end
-
 # ----- Movieクラス ------
 class Movie
   REGULAR = 0
@@ -38,6 +31,12 @@ class Movie
   end
 end
 
+# ----- DefaultPriceモジュール -----
+module DefaultPrice
+  def frequent_renter_points(days_rented)
+    1
+  end
+end
 
 # ----- RegularPriceクラス -----
 class RegularPrice
@@ -60,7 +59,7 @@ class NewReleasePrice
   end
 end
 
-# ----- ChildrensPrice -----
+# ----- ChildrensPriceクラス -----
 class ChildrensPrice
   include DefaultPrice
   def charge(days_rented)

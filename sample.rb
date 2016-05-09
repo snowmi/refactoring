@@ -1,6 +1,6 @@
 require "./samplecode"
 
-et = Movie.new("ET", RegularPrice.new)
+et = Movie.new("ET", Movie::REGULAR)
 jaws = Movie.new("Jaws", Movie::NEW_RELEASE)
 anpanman = Movie.new("Anpanman", Movie::CHILDRENS)
 
