@@ -1,8 +1,8 @@
 require "./samplecode"
 
-et = Movie.new("ET", 0)
-jaws = Movie.new("Jaws", 1)
-anpanman = Movie.new("Anpanman", 2)
+et = Movie.new("ET", Movie::REGULAR)
+jaws = Movie.new("Jaws", Movie::NEW_RELEASE)
+anpanman = Movie.new("Anpanman", Movie::CHILDRENS)
 
 first_rental = Rental.new(jaws, 3)
 second_rental = Rental.new(et, 5)
